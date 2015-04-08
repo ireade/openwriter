@@ -1,0 +1,29 @@
+/* ---------------------------------------
+				Type
+--------------------------------------- */
+
+@import url(http://fonts.googleapis.com/css?family=Cabin:400,700,400italic);
+
+
+$font-stack: 'Cabin', sans-serif;
+
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	font-family: $font-stack;
+	font-size: 20px;
+	font-size: 2rem;
+	line-height: 1.4;
+	font-weight: 400;
+	color: rgb(80, 80, 80);
+}
+
+h1 {
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 18px;
+	font-size: 1.8rem;
+}
