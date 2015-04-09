@@ -2,10 +2,14 @@
 				Type
 --------------------------------------- */
 
-@import url(http://fonts.googleapis.com/css?family=Cabin:400,700,400italic);
+@import url(http://fonts.googleapis.com/css?family=Oxygen:700,400);
+
+@import url(http://fonts.googleapis.com/css?family=Merriweather:700,300italic,300,900);
 
 
-$font-stack: 'Cabin', sans-serif;
+$serif: 'Merriweather', serif;
+
+$sans-serif: 'Oxygen', sans-serif;
 
 
 html {
@@ -13,17 +17,56 @@ html {
 }
 
 body {
-	font-family: $font-stack;
+	font-family: $serif;
 	font-size: 20px;
-	font-size: 2rem;
-	line-height: 1.4;
-	font-weight: 400;
-	color: rgb(80, 80, 80);
+	font-size: 1.6rem;
+	line-height: 1.6;
+	font-weight: 300;
+	color: $font-colour;
 }
 
 h1 {
+	font-family: $serif;
+	font-size: 30px;
+	font-size: 3rem;
 	font-weight: 700;
-	text-transform: uppercase;
-	font-size: 18px;
-	font-size: 1.8rem;
 }
+
+
+a {
+	color: inherit;
+	font-weight: 700;
+}
+
+nav a {
+	text-decoration: none;
+}
+
+
+.btn {
+	font-family: $serif;
+	font-size: 1.4rem;
+}
+
+small {
+	font-size: 12px;
+	font-size: 1.2rem;
+}
+
+
+blockquote {
+	font-size: 2rem;
+}
+
+.regular nav {
+	font-size: 1.2rem;
+}
+
+
+
+
+
+
+
+
+

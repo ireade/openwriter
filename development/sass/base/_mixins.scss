@@ -1,3 +1,17 @@
 /* ---------------------------------------
 				Mixins
 --------------------------------------- */
+
+$theme-colour: rgb(100, 150, 200);
+
+$bg-colour: rgb(250, 250, 250);
+$font-colour: rgb(80, 80, 80);
+
+$medium-grey: rgb(200, 200, 200);
+
+
+@mixin bg-image($image) {
+	background: url('../images/'+$image);
+	background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
