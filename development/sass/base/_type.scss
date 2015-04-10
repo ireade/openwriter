@@ -1,0 +1,107 @@
+/* ---------------------------------------
+				Type
+--------------------------------------- */
+
+@import url(http://fonts.googleapis.com/css?family=PT+Mono);
+@import url(http://fonts.googleapis.com/css?family=Libre+Baskerville:700,400italic,400);
+
+$serif: 'Libre Baskerville', serif;
+$mono: 'PT Mono', monospace;
+
+html {
+	font-size: 62.5%;
+}
+
+body,
+input,
+textarea {
+	font-family: $serif;
+	font-size: 14px;
+	font-size: 1.4rem;
+	line-height: 1.8;
+	font-weight: 400;
+	color: $font-colour;
+}
+
+h1 {
+	font-family: $serif;
+	font-size: 30px;
+	font-size: 3rem;
+	color: $bg-colour;
+}
+
+h2 {
+	font-size: 22px;
+	font-size: 2.2rem;
+	a {
+		text-decoration: none;
+	}
+}
+
+h3 {
+	font-size: 14px;
+	font-size: 1.4rem;
+	font-weight: 700;
+	color: $medium-grey;
+}
+
+label {
+	font-style: italic;
+}
+
+a {
+	color: inherit;
+	font-weight: 700;
+	text-decoration: none;
+	transition: color 0.6s;
+
+}
+
+a:hover {
+	color: $theme-colour;
+}
+
+nav a {
+	text-decoration: none;
+}
+
+
+.btn {
+	font-family: $serif;
+	font-size: 12px;
+	font-size: 1.2rem;
+}
+
+small {
+	font-size: 12px;
+	font-size: 1.2rem;
+}
+
+
+blockquote {
+	font-size: 2rem;
+}
+
+.regular nav {
+	font-size: 12px;
+	font-size: 1.2rem;
+
+	.fa {
+		font-size: 18px;
+		font-size: 1.8rem;
+	}
+}
+
+
+pre, 
+code {
+	font-family: $mono;
+}
+
+
+
+
+
+
+
+

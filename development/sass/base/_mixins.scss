@@ -1,0 +1,17 @@
+/* ---------------------------------------
+				Mixins
+--------------------------------------- */
+
+// $theme-colour: #ffdb3a;
+$theme-colour: rgb(113, 1, 9);
+
+$bg-colour: rgb(250, 250, 250);
+$font-colour: rgb(80, 80, 80);
+
+$medium-grey: rgb(200, 200, 200);
+
+
+@mixin bg-image() {
+	background-size: cover;
+    background-position: center;
+}
