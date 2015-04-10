@@ -5,9 +5,9 @@ I created this theme as a way to learn how Ghost works. It is available for free
 
 ![OpenWriter Example](http://ireaderinokun.com/openwriter-images/1.png)
 
-![OpenWriter Example](http://ireaderinokun.com/openwriter-images/7.png)
+![OpenWriter Example](http://ireaderinokun.com/openwriter-images/7.png =40%)
 
-![OpenWriter Example](http://ireaderinokun.com/openwriter-images/8.png)
+![OpenWriter Example](http://ireaderinokun.com/openwriter-images/8.png =40%)
 
 
 ## Getting Started
