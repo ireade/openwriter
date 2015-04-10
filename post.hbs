@@ -15,7 +15,7 @@
 
 	<div class="title-container">
 		<h1 class="post-title">{{title}}</h1>
-		<h3 class="post-meta">Posted on <time class="post-date" datetime="{{date format='YYYY-MM-DD'}}">{{date format="DD MMMM YYYY"}}</time> by {{author}}</h3>
+		<h3 class="post-meta">Posted on <time class="post-date" datetime="{{date format='YYYY-MM-DD'}}">{{date format="D MMMM YYYY"}}</time> by {{author}}</h3>
 	</div>
 </header>
 
@@ -24,10 +24,12 @@
 
 	<div class="post-footer">
 
+		{{#if tags}}
 		<div class="tags">
 			<small>Tags</small><br/>
 			{{tags}}
 		</div>
+		{{/if}}
 
 		<div class="share">
 			<small>Share This Article</small><br/>
