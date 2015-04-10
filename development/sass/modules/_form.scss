@@ -1,0 +1,51 @@
+/* ---------------------------------------
+			Form Modules
+--------------------------------------- */
+
+textarea,
+input,
+input[type="text"],
+input[type="button"],
+input[type="submit"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border-radius: 0;
+}
+
+input,
+textarea {
+	margin: 0.3rem auto 1rem;
+	padding: 5px;
+	text-align: center;
+	border: 3px solid $medium-grey;
+	width: 85%;
+	max-width: 400px;
+	outline: none;
+}
+
+input:focus,
+textarea:focus {
+	border: 3px solid $theme-colour;
+}
+
+input {
+	height: 3.5rem;
+}
+
+input[type="submit"] {
+	@extend .btn;
+	border-radius: 20px;
+	background-color: $bg-colour;
+	cursor: pointer;
+}
+
+label,
+input,
+textarea {
+	display: block;
+}
+
+#contactform {
+	text-align: center;
+	margin-top: 3rem;
+}

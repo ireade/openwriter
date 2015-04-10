@@ -2,26 +2,24 @@
 				Type
 --------------------------------------- */
 
-@import url(http://fonts.googleapis.com/css?family=Oxygen:700,400);
+@import url(http://fonts.googleapis.com/css?family=PT+Mono);
+@import url(http://fonts.googleapis.com/css?family=Libre+Baskerville:700,400italic,400);
 
-@import url(http://fonts.googleapis.com/css?family=Merriweather:700,300italic,300,900);
-
-
-$serif: 'Merriweather', serif;
-
-$sans-serif: 'Oxygen', sans-serif;
-
+$serif: 'Libre Baskerville', serif;
+$mono: 'PT Mono', monospace;
 
 html {
 	font-size: 62.5%;
 }
 
-body {
+body,
+input,
+textarea {
 	font-family: $serif;
-	font-size: 20px;
-	font-size: 1.6rem;
-	line-height: 1.6;
-	font-weight: 300;
+	font-size: 14px;
+	font-size: 1.4rem;
+	line-height: 1.8;
+	font-weight: 400;
 	color: $font-colour;
 }
 
@@ -29,13 +27,38 @@ h1 {
 	font-family: $serif;
 	font-size: 30px;
 	font-size: 3rem;
-	font-weight: 700;
+	color: $bg-colour;
 }
 
+h2 {
+	font-size: 22px;
+	font-size: 2.2rem;
+	a {
+		text-decoration: none;
+	}
+}
+
+h3 {
+	font-size: 14px;
+	font-size: 1.4rem;
+	font-weight: 700;
+	color: $medium-grey;
+}
+
+label {
+	font-style: italic;
+}
 
 a {
 	color: inherit;
 	font-weight: 700;
+	text-decoration: none;
+	transition: color 0.6s;
+
+}
+
+a:hover {
+	color: $theme-colour;
 }
 
 nav a {
@@ -45,7 +68,8 @@ nav a {
 
 .btn {
 	font-family: $serif;
-	font-size: 1.4rem;
+	font-size: 12px;
+	font-size: 1.2rem;
 }
 
 small {
@@ -59,9 +83,20 @@ blockquote {
 }
 
 .regular nav {
+	font-size: 12px;
 	font-size: 1.2rem;
+
+	.fa {
+		font-size: 18px;
+		font-size: 1.8rem;
+	}
 }
 
+
+pre, 
+code {
+	font-family: $mono;
+}
 
 
 

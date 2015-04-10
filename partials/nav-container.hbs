@@ -1,0 +1,30 @@
+<nav>
+	<div class="brand">
+		<a href="{{@blog.url}}">
+		{{#if @blog.logo}}
+		<img src="{{@blog.logo}}" alt="{{@blog.title}} Logo">
+		{{else}}
+		{{@blog.title}}
+		{{/if}}
+
+		</a>
+	</div>
+	
+	{{#if @blog.navigation}}
+	<ul class="navigation">
+		<li><a href="{{@blog.url}}">Blog</a></li>
+		{{navigation}}
+		<li id="show-nav"> <a href="#"> <i class="fa fa-bars"></i> </a></li>
+	</ul>
+	{{/if}}
+</nav>
+
+{{#if @blog.navigation}}
+<div id="hidden-nav">
+<ul>
+	<li><a href="{{@blog.url}}">Blog</a></li>
+	{{navigation}}
+	<li><a href="#" id="hide-nav">X</a></li>
+</ul>
+</div>
+{{/if}}

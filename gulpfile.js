@@ -39,6 +39,7 @@ gulp.task('concat', function() {
 
 gulp.task('watch', function() {
     gulp.watch(sassSources,['sass']); 
+    gulp.watch(sassStyle,['sass']); 
     gulp.watch(jsSources,['concat']); 
 });
 

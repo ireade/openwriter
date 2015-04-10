@@ -2,25 +2,33 @@
 				Default
 --------------------------------------- */
 
-
-
 html,
 body {
-	background-color: rgb(250, 250, 250);
-}
-
-/* */
-
-#homepage-hero {
-	background-color: pink;
-	width: 100vw;
-	height: 50vh;
+	background-color: $bg-colour;
 }
 
 
 main {
-	width: 85%;
-	max-width: 960px;
-	margin: 2rem auto;
+	width: 100%;
+	padding: 3rem 7% 2rem;
+	margin: 0 auto;
+	background-color: $bg-colour;
+	position: relative;
 }
 
+.post-content,
+.post-excerpt {
+	max-width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+footer {
+	height: 70px;
+	border-top: 1px solid $medium-grey;
+	text-align: center;
+	padding: 20px;
+	position: relative;
+
+	background-color: #fff;
+}

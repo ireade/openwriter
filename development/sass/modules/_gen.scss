@@ -1,0 +1,29 @@
+/* ---------------------------------------
+				General Modules
+--------------------------------------- */
+
+.btn {
+	width: 16rem;
+	min-height: 3.5rem;
+	margin: 1rem 0;
+	padding: 0.4rem;
+	text-align: center;
+	border: 3px solid $theme-colour;
+	border-radius: 20px;
+	display: inline-block;
+
+	transition: background-color 0.6s, color 0.6s;
+}
+
+.btn:hover,
+.btn:focus {
+	background-color: $theme-colour;
+	color: $bg-colour;
+}
+
+.pagination {
+	margin-top: 1rem;
+	.page-number {
+		margin: 0 1rem;
+	}
+}
