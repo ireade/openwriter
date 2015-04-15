@@ -1,7 +1,9 @@
 # OpenWriter
 ### A free theme for Ghost
 
-I created this theme as a way to learn how Ghost works. It is available for free.
+I created this theme as a way to learn how Ghost works. It is available for free. 
+
+[Demo](https://ireaderinokun.ghost.io)
 
 ![OpenWriter Example](http://www.ireaderinokun.com/openwriter-images/1.png)
 
