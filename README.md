@@ -24,6 +24,7 @@ To install this theme, simply download this repo as a zip file, extract, and pla
 - Ready to use, no configuration needed
 - Support for all main ghost features - author pages, tag pages, etc.
 - Default cover image
+- Cover image size smaller on subsequent archive pages
 - Contact form pre-installed
 
 
