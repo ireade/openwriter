@@ -26,6 +26,7 @@ To install this theme, simply download this repo as a zip file, extract, and pla
 - Default cover image
 - Cover image size smaller on subsequent archive pages
 - Contact form pre-installed
+- Support for private blogs *NEW*
 
 
 ### Contact Form
