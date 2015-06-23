@@ -31,13 +31,16 @@ To install this theme, simply download this repo as a zip file, extract, and pla
 
 ### Contact Form
 
-Thanks to [Formspree](http://formspree.io), I was able to include a free contact form by default. To use it, follow these steps:
+Thanks to [Formspree](http://formspree.io), I was able to include a free contact form. Because Ghost no longer allows themes to have direct access to your remail for security reasons, you will need to add your email address manually. To do this, follow these steps:
 
-1. Create a new post
-2. Title the post 'Contact' and make sure the post URL is also 'contact'
-3. Under the settings, check the box that says "Turn this post into a static page"
-4. Publish
-5. Visit the Contact page and fill in the form once to activate it with Formspree
+1. Find "contact.hbs" in the partials folder of the theme
+2. Place your email address in the specified section on line 2
+3. Save the file and activate OpenWriter as your theme
+4. Create a new post
+5. Title the post 'Contact' and make sure the post URL is also 'contact'
+6. Under the settings, check the box that says "Turn this post into a static page"
+7. Publish the page
+8. Visit the Contact page and fill in the form once to activate it with Formspree
 
 The email the contact form will send to is determined by the post Author's email, so choose your author carefully.
 
@@ -54,3 +57,5 @@ Each page features a cover image. This is determined by the following hierarchy:
 Special thanks to [The Stocks](http://thestocks.im/) for providing the default cover image under the Creative Commons Zero licence.
 
 ![OpenWriter Example](http://www.ireaderinokun.com/openwriter-images/6.png)
+
+
