@@ -42,7 +42,6 @@ Thanks to [Formspree](http://formspree.io), I was able to include a free contact
 7. Publish the page
 8. Visit the Contact page and fill in the form once to activate it with Formspree
 
-The email the contact form will send to is determined by the post Author's email, so choose your author carefully.
 
 ![OpenWriter Example](http://www.ireaderinokun.com/openwriter-images/5.png)
 
