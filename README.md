@@ -5,9 +5,9 @@ I created this theme as a way to learn how Ghost works. It is available for free
 
 [Demo](https://ireaderinokun.ghost.io)
 
-![OpenWriter Example](http://www.ireaderinokun.com/openwriter-images/1.png)
+![OpenWriter Example](screenshot1.png)
 
-![OpenWriter Example](http://www.ireaderinokun.com/openwriter-images/8.png)
+![OpenWriter Example](screenshot2.png)
 
 
 ## Getting Started
@@ -43,7 +43,6 @@ Thanks to [Formspree](http://formspree.io), I was able to include a free contact
 8. Visit the Contact page and fill in the form once to activate it with Formspree
 
 
-![OpenWriter Example](http://www.ireaderinokun.com/openwriter-images/5.png)
 
 ### Cover Images
 
@@ -55,6 +54,5 @@ Each page features a cover image. This is determined by the following hierarchy:
 
 Special thanks to [The Stocks](http://thestocks.im/) for providing the default cover image under the Creative Commons Zero licence.
 
-![OpenWriter Example](http://www.ireaderinokun.com/openwriter-images/6.png)
 
 
